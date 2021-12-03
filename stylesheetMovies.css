@@ -1,0 +1,20 @@
+/* Style the search box */
+div {
+  border-style: double;
+  padding: 10px;
+}
+#movieSearch {
+  width: 300px;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+ul {
+  columns: 6rem auto;
+  column-gap: 40px;
+  column-width: 250px;
+}
+li {
+  padding-top: 10px;
+}

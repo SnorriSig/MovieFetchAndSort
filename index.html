@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheetMovies.css" />
+    <title>Movies</title>
+  </head>
+  <body>
+    <div>
+      <input type="text" id="movieSearch" placeholder="Search.. " />
+      <button type="button" id="myBtn">Lookup Movie!</button><br />
+
+      Show new titles: <input type="checkbox" id="newMoviesCheck" /><br />
+
+      <label for="rating">Choose movie rating:</label>
+      <select id="rating" name="rating">
+        <option>select rating</option>
+        <option value="9">Rating 9+</option>
+        <option value="8">Rating 8 - 8,9</option>
+        <option value="7">Rating 7 - 7,9</option>
+        <option value="6">Rating 6 - 6,9</option>
+        <option value="5">Rating 5 - 5,9</option>
+        <option value="4">Rating less than 5</option>
+      </select>
+    </div>
+
+    <ul id="movieList"></ul>
+
+    <script src="main.js"></script>
+  </body>
+</html>
